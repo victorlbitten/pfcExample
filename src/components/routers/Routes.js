@@ -10,8 +10,6 @@ import NotFoundPage from '../NotFoundPage'
 const Routes = () => (
   <BrowserRouter>
     <div>
-      <Header />
-
       <Switch>
         <Route exact path="/">
             <App />
